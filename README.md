@@ -12,7 +12,8 @@ DARWIN.csv: the dataset, exactly as we got it, to host on GitHub.
 **How to run it:**
 Open assignment2.ipynb in Colab.
 Run all cells top to bottom. First cell installs xgboost; everything else is already in Colab.
-The data loads from a GitHub raw link. RAW_CSV_URL in the second cell already points at our repo: https://raw.githubusercontent.com/elizardmak/4372_Assignment2/refs/heads/main/DARWIN.csv If you want to use your own copy, just push DARWIN.csv to a repo, hit "Raw" on GitHub, and swap the URL.
+The data loads from a GitHub raw link. RAW_CSV_URL in the second cell already points at our repo: https://raw.githubusercontent.com/elizardmak/4372_Assignment2/refs/heads/main/DARWIN.csv 
+
 
 *Assumptions we made:*
 No missing values, no duplicate rows in the raw data, so there was nothing to clean up there.
