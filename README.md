@@ -16,8 +16,8 @@ The data loads from a GitHub raw link. RAW_CSV_URL in the second cell already po
 
 
 *Assumptions we made:*
-No missing values, no duplicate rows in the raw data, so there was nothing to clean up there.
-Every feature is a number already (times, speeds, pressure readings), so there was no categorical encoding to do.
+No missing values, no duplicate rows in the raw data, so there was nothing to clean up there.  
+Every feature is a number already (times, speeds, pressure readings), so there was no categorical encoding to do.  
 Big one: this dataset has way more columns (450) than rows (174), so we had to pick a smaller set of features or the models would just overfit. We kept the top 20 by correlation with the target.
 We split into train/test before picking features or scaling anything, and only used the training rows to decide which features to keep. Doing it the other way around (whole dataset first, then split) leaks test info into the model and makes results look better than they'd actually be. This was something we had to go back and fix after getting feedback on an earlier version.
 80/20 split, stratified, random_state=42 — 139 training rows, 35 test rows. With that few test rows, small differences between models don't mean a whole lot, so don't read too much into a 2-3% gap.
