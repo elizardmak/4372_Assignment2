@@ -4,9 +4,10 @@ Dataset: DARWIN (handwriting data used to detect Alzheimer's disease)
 Team: Elizaveta Makhonina (dal445515) & Avizeh Walji (anw230000) 
 
 **Files:**
-assignment2.ipynb: all the code: loading the data, cleaning it up, picking features, training/tuning four models (Decision Tree, Random Forest, AdaBoost, XGBoost), and all the result plots.\
-report_template.docx: the write-up. Has real numbers and plots from our own run already dropped in, plus little boxes marking where we still need to add our own thoughts before turning it in.\
-DARWIN.csv: the dataset, exactly as we got it, to host on GitHub.
+CS4372_assignment2.ipynb: all the code: loading the data, cleaning it up, picking features, training/tuning four models (Decision Tree, Random Forest, AdaBoost, XGBoost), and all the result plots.\
+CS4372_Assignment2.pdf: the write-up. Has real numbers and plots from our own run already dropped in, plus little boxes marking where we still need to add our own thoughts before turning it in.\
+DARWIN.csv: the dataset, exactly as we got it, to host on GitHub.\
+README.md: Read me file.
 
 
 **How to run it:**
